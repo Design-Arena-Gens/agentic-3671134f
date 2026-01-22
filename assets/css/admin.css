@@ -1,0 +1,61 @@
+/* Card Flip Game Admin Styles */
+
+.cfg-status-badge {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.cfg-status-active {
+    background: #28a745;
+    color: white;
+}
+
+.cfg-status-completed {
+    background: #6c757d;
+    color: white;
+}
+
+.cfg-status-pending {
+    background: #ffc107;
+    color: white;
+}
+
+.cfg-status-approved {
+    background: #28a745;
+    color: white;
+}
+
+.cfg-status-rejected {
+    background: #dc3545;
+    color: white;
+}
+
+.cfg-image-preview {
+    margin-top: 10px;
+}
+
+.cfg-image-preview img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
